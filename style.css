@@ -1,0 +1,46 @@
+
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width:100vw;
+    height:5rem;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#fff;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.links a{
+    text-decoration: none;
+    color:#fff;
+    margin-left: 15px;
+}
+
+.image img{
+    display: flex;
+    margin:auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.heading{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.miniblogs{
+    margin-left: 5rem;
+    margin-top: 10px;
+}
