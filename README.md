@@ -15,7 +15,7 @@ basic websites for beginners. Zero to hero Course
 
 ---
 
-# Ⓜ️ Methode 1
+# Ⓜ️ Methode 
 
 * **This Methode is Very Easy**
 
@@ -26,17 +26,3 @@ basic websites for beginners. Zero to hero Course
 * Now A Screen will Popup. Now Click **Download Zip** Option . Now the file has been started downloading 
 
 ![Screenshot (159)](https://user-images.githubusercontent.com/66934377/164153128-b64e85a2-e40c-4457-9835-a749ac79acd6.png)
-
----
-
-# Ⓜ️ Methode 2
-
-* **This Methode is tittle bit Hard**
-
-* Now Open **cmd** in windows, **bash Terminal** in mac. Now Hit the Below Command's
-
-```bash
-git clone https://github.com/Manju1392k/BasicWebsites-for-beginners/edit/BasicWebsiteforBeginnersPart-3
-```
-
-* The project cloned after this process
