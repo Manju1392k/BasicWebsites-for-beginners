@@ -36,7 +36,7 @@ basic websites for beginners. Zero to hero Course
 * Now Open **cmd** in windows, **bash Terminal** in mac. Now Hit the Below Command's
 
 ```bash
-git clone https://github.com/Manju1392k/BasicWebsites-for-beginners/edit/BasicWebsiteforBeginnersPart-1
+git clone https://github.com/Manju1392k/BasicWebsites-for-beginners/tree/BasicWebsiteforBeginnersPart-1
 ```
 
 * The project cloned after this process
