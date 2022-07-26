@@ -10,13 +10,6 @@ basic websites for beginners. Zero to hero Course
 
 # ⬇️ Code Downloading Process
 
-* You Can Download the code in **2 Methods**
-* Choose Any One Methode has your whish
-
----
-
-# Ⓜ️ Methode 
-
 * **This Methode is Very Easy**
 
 * Now Click on __Code Option__
