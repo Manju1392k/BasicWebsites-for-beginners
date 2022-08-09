@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 5rem;
+    background-color: #3399ff;
+    color: #fff;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.buttonone {
+    padding: 12px 25px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+.main {
+    width: 100vw;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    width: 45vw;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.buynow {
+    width: 6rem;
+    background-color: green;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.imageone {
+    height: 15rem;
+    width: 20vw;
+    display: flex;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.imagetwo {
+    display: flex;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.footer {
+    width: 100vw;
+    height: 25rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+}
+
+.border {
+    width: 80vw;
+    height: 3px;
+    background-color: #fff;
+}
