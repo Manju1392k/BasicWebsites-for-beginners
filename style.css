@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100vw;
+    height: 5rem;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.2rem;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin-top: 2rem;
+}
+
+.image img {
+    height: 30rem;
+}
+
+.textbox {
+    height: 30rem;
+    width: 53vw;
+}
+
+.miniheading {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.btn {
+    padding: 12px 18px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.placesbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.placesbox img {
+    height: 15rem;
+    margin-top: 2rem;
+}
+
+/* media quries code here for responsive design */
+
+@media screen and (max-width: 1030px) {
+    .navbar {
+        height: 15rem;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .main {
+        flex-wrap: wrap;
+    }
+
+    .placesbox {
+        flex-wrap: wrap;
+    }
+
+    .placesbox img {
+        width: 70vw;
+    }
+
+    .textbox {
+        margin-top: 2rem;
+        height: 40rem;
+        width: 90vw;
+    }
+}
