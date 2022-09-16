@@ -1,0 +1,166 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+body{
+    background-color: #000b80;
+    overflow-x:hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100vw;
+    height:5rem;
+}
+
+.logo {
+    color:#fff;
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+
+.links a{
+    color:#fff;
+    font-size: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.main{
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.textbox{
+    width:45vw;
+    height:25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+}
+
+.mainheading{
+    display: flex;
+    align-items:center;
+}
+
+.name{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.headingone{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color:#fff;
+}
+
+.icons{
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skillsheading{
+    color:#fff;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.firsticon{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+}
+
+.footer{
+    width: 100vw;
+   padding:4rem;
+   display: flex;
+   justify-content: space-around;
+   align-items:center;
+   flex-wrap: wrap;
+}
+
+.mobilephonenavbar{
+    display: none;
+}
+
+.mobilenavbarlinks{
+    display: none;
+}
+
+/* media quries for responsive design */
+
+@media screen and (max-width: 1030px){
+
+    .navbar{
+        display: none;
+    }
+
+    .mobilephonenavbar{
+        display: flex;
+        width: 100vw;
+        height: 4rem;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        color:#fff;
+    }
+
+    .textbox{
+        width:80vw;
+    }
+
+    .icons{
+        flex-direction: column;
+    }
+
+    .footer{
+        padding:6px;
+        flex-direction: column;
+    }
+
+    .mobilenavbarlinks{
+        display: flex;
+        width:0vw;
+        height:35rem;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        color:#fff;
+        font-weight: bold;
+        flex-direction: column;
+        position: fixed;
+        overflow: hidden;
+        background-color: #000;
+    }
+
+    .mobilenavbarlinks a{
+        color:#fff;
+        text-decoration: none;
+    }
+
+    #closebutton{
+        margin-left: 80vw;
+    }
+
+}
